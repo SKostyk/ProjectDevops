@@ -37,19 +37,3 @@ Vagrant.configure("2") do |config|
 
 
 end
- #Зробити host-only мережу, де є 10мережа
- #треба ключик, щоб конфлюен не задавав питань
-
-#  cd ../
-#  [vagrant@vm nginx]$ sudo nginx -t
-#  nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-#  nginx: configuration file /etc/nginx/nginx.conf test is successful
- 
-
-# AAABLA0ODAoPeNptkMtqwzAQRff6CkM37UJBcponCNrahjrYSYiTrrqZikkqsGUjyWnz91XipC8CE
-# gjduXfOzE1e6yBGGfChP1M2mLJxEBXrIGR8QmK00qjGqVqLqNbbskUtMbgt0OzR3L1Og2QPZQvHA
-# hIZPD1icCiOdspDykfEGx1IN4cKhYRGOfgYP+wqUGVP1hWRPrfndbVH4UyL3UfhwDg0YgulxUtEk
-# nvTtYwfil8RmZKoLa4PDZ56R4s8T1ZR+piRspNe0NijJyQ+WDvU4KdLPhtlDuchQkYZp3xIFmYHW
-# tmuxxWCbiNpLJ6G/T5drkYbOhukMX2eZDNSJHPhL834/YgPGOPkzObrszT+K53Y5231hmax3ViPK
-# Oi34TrcsjXyHSz+3/wXi2KbnTAsAhQU3xQ2VX1hdMPb2jqFK6gKXIWxVQIUDY2/nXn4jxc9hb9Lc
-# Lv9X6UglUs=X02f3

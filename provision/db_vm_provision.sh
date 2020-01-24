@@ -9,18 +9,3 @@ systemctl enable docker
 
 docker pull mysql:8
 docker run -d --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=mySchema mysql:8
-
-# fi
-
-# docker run -d --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=mySchema mysql:8
-
-
-# <Resource name="jdbc/confluence" auth="Container" type="javax.sql.DataSource"
-#     username="mysql"
-#     password="secret"
-#     driverClassName="com.mysql.cj.jdbc.Driver"
-#     url="jdbc:mysql://vm.db:3306/mySchema?useUnicode=true&amp;characterEncoding=utf8"
-#     maxTotal="60"
-#     maxIdle="20"
-#     defaultTransactionIsolation="READ_COMMITTED"
-#     validationQuery="Select 1"/>
